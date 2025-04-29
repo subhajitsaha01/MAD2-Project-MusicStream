@@ -1,0 +1,13 @@
+Python Version : Python 3.10.12
+
+Setting up of Python Virtual Environment
+----------------------------------------
+Install python3-venv : sudo apt install python3-venv -y
+
+Create project_venv : python3 -m venv project_venv
+
+Activate project_venv : source project_venv/bin/activate
+
+Install Dependencies : pip install -r requirements.txt
+
+Freeze Dependencies : pip freeze > requirements_details.txt
